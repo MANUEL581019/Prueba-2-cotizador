@@ -1,12 +1,12 @@
 
 const ingredientes = [
         { nombre: "Azúcar", peso: 1000, precio: 21 },
-        { nombre: "Harina", peso: 1000, precio: 40 },
-        { nombre: "Sal", peso: 1000, precio: 8 },
-        { nombre: "Levadura", peso: 1000, precio: 60 },
+        { nombre: "Harina", peso: 1000, precio: 19.5 },
+        { nombre: "Sal", peso: 1000, precio: 6 },
+        { nombre: "Levadura", peso: 1000, precio: 45},
         { nombre: "Mantequilla", peso: 1000, precio: 160 },
         { nombre: "Leche", peso: 1000, precio: 23 },
-        { nombre: "Fermento", peso: 1000, precio: 33 },
+        { nombre: "Fermento", peso: 1000, precio: 22 },
         { nombre: "Agua", peso: 1000, precio: 3 },
         
     ];
@@ -20,8 +20,8 @@ const recetasPanDulce = [
             { nombre: "Fermento", cantidad: "100g" },
             { nombre: "Harina", cantidad: "1000g" },
             { nombre: "Leche", cantidad: "350ml" },
-            { nombre: "Levadura", cantidad: "20g" },
-            { nombre: "Mantequilla", cantidad: "60g" },
+            { nombre: "Levadura", cantidad: "30g" },
+            { nombre: "Mantequilla", cantidad: "640g" },
             { nombre: "Sal", cantidad: "20g" }
         ],
         porciones: 20
