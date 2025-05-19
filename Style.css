@@ -1,0 +1,155 @@
+/* Base styles */
+
+header{
+    background-color: #fdca40;
+    color: #140808;
+    padding: 40px 30px;
+    text-align: end; 
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: block;
+    margin: 0 10px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.mensajeDeBienvenida {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.caja1{
+    background-color: #ba1c1c;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.cajas > *{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 33%;
+}
+.cajas{
+    display: flex;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#tituloPanDulce{
+    
+    color: #140808;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#tituloDeIngredientes{
+    
+    color: #140808;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#tablaIngredientes{
+    
+    border-collapse: separate;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-spacing: 5px 5px;
+
+}
+
+
+#tablaPanDulce{
+    
+    border-collapse: separate;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-spacing: 5px 5px;
+
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    
+}
+
+footer {
+    background-color: #31393c;
+    color: #ffffff;
+    padding: 40px;
+    text-align: center;
+}
