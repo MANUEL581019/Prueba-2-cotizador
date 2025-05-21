@@ -1,13 +1,74 @@
 
 const ingredientes = [
-        { nombre: "Azúcar", peso: 1000, precio: 21 },
-        { nombre: "Harina", peso: 1000, precio: 19.5 },
-        { nombre: "Sal", peso: 1000, precio: 6 },
-        { nombre: "Levadura", peso: 1000, precio: 45},
-        { nombre: "Mantequilla", peso: 1000, precio: 1700 },
+    { nombre: "Azúcar", peso: 1000, precio: 21 },
+        { nombre: "Harina", peso: 1000, precio: 21 },
+        { nombre: "Sal", peso: 1000, precio: 8 },
+        { nombre: "Levadura", peso: 1000, precio: 45 },
+        { nombre: "Mantequilla", peso: 1000, precio: 160 },
         { nombre: "Leche", peso: 1000, precio: 23 },
         { nombre: "Fermento", peso: 1000, precio: 22 },
         { nombre: "Agua", peso: 1000, precio: 3 },
+        { nombre: "Huevo", peso: 1000, precio: 45 },
+        { nombre: "Tapa concha", peso: 1000, precio: 130 },
+        { nombre: "Relleno de nata", peso: 1000, precio: 50 },
+        { nombre: "Clara", peso: 1000, precio: 60 },
+        { nombre: "Azúcar glass", peso: 1000, precio: 25 },
+        { nombre: "Crema pastelera", peso: 1000, precio: 36 },
+        { nombre: "Canela", peso: 100, precio: 60 },
+        { nombre: "Chocolate", peso: 1000, precio: 250 },
+        { nombre: "Azúcar morena", peso: 1000, precio: 38 },
+        { nombre: "Leche en polvo", peso: 1000, precio: 60 },
+        { nombre: "Harina integral", peso: 1 , precio: 1 },
+        { nombre: "Harina blanca", peso: 50, precio: 50 },
+        { nombre: "Harina cebada", peso: 50, precio: 200 },
+        { nombre: "Harina centeno", peso: 250, precio: 150 },
+        { nombre: "Mijo", peso: 10, precio: 300 },
+        { nombre: "Linaza", peso: 50, precio: 250 },
+        { nombre: "Trigo entero", peso: 200, precio: 90 },
+        { nombre: "Cebada entera", peso: 500, precio: 35 },
+        { nombre: "Avena", peso: 100, precio: 80 },
+        { nombre: "Hierbas", peso: 1000, precio: 32 },
+        { nombre: "Parmesano", peso: 1000, precio: 22 },
+        { nombre: "Ajo", peso: 1000, precio: 8 },
+        { nombre: "Aceitunas", peso: 1000, precio: 100 },
+        { nombre: "Aceite de oliva", peso: 1000, precio: 150 },
+        { nombre: "Romero con oregano", peso: 1000, precio: 30 },
+        { nombre: "Jitomate", peso: 1000, precio: 45 },
+        { nombre: "Sal de grano", peso: 1000, precio: 30 },
+        { nombre: "Semillas varias", peso: 1 , precio: 1 },
+        { nombre: "Relleno calabaza", peso: 1000, precio: 50 },
+        { nombre: "Semillas", peso: 500, precio: 40 },
+        { nombre: "Nuez de castilla", peso: 300, precio: 80 },
+        { nombre: "Higo", peso: 100, precio: 60 },
+        { nombre: "Albahaca", peso: 1000, precio: 15 },
+        { nombre: "Mostaza", peso: 50, precio: 200 },
+        { nombre: "Miel", peso: 250, precio: 150 },
+        { nombre: "Relleno de espinacas", peso: 10, precio: 300 },
+        { nombre: "Queso", peso: 50, precio: 250 },
+        { nombre: "Chipotle", peso: 200, precio: 90 },
+        { nombre: "Ajonjoli", peso: 500, precio: 35 },
+        { nombre: "Salchicha", peso: 1 , precio: 1 },
+        { nombre: "Relleno de pollo", peso: 50, precio: 50 },
+        { nombre: "Relleno de jamon", peso: 500, precio: 40 },
+        { nombre: "Relleno de cochinita", peso: 300, precio: 80 },
+        { nombre: "Relleno de atun", peso: 100, precio: 60 },
+        { nombre: "Espinacas", peso: 1000, precio: 15 },
+        { nombre: "Salsa de tomate", peso: 50, precio: 200 },
+        { nombre: "Peperoni", peso: 250, precio: 150 },
+        { nombre: "Mozarella", peso: 10, precio: 300 },
+        { nombre: "Pure de papa", peso: 50, precio: 250 },
+        { nombre: "Romero", peso: 200, precio: 90 },
+        { nombre: "Tocino", peso: 500, precio: 35 },
+        { nombre: "Pistache", peso: 100, precio: 60 },
+        { nombre: "Jamon serrano", peso: 1000, precio: 50 },
+        { nombre: "Eneldo", peso: 50, precio: 50 },
+        
+
+        { nombre: "Vainilla", peso: 50, precio: 200 },
+        { nombre: "Cacao", peso: 250, precio: 150 },
+
+
+        { nombre: "Mano de obra", peso: 1 , precio: 1 },
         
     ];
 
@@ -20,36 +81,117 @@ const recetasPanDulce = [
             { nombre: "Fermento", cantidad: "100g" },
             { nombre: "Harina", cantidad: "1000g" },
             { nombre: "Leche", cantidad: "350ml" },
-            { nombre: "Levadura", cantidad: "30g" },
-            { nombre: "Mantequilla", cantidad: "60g" },
-            { nombre: "Sal", cantidad: "20g" }
+            { nombre: "Levadura", cantidad: "20g" },
+            { nombre: "Mantequilla", cantidad: "640g" },
+            { nombre: "Sal", cantidad: "20g" }, 
+            { nombre: "Mano de obra", cantidad: "0g" }
         ],
         porciones: 20
     },
     {
-        nombre: "Pan de muerto",
+        nombre: "Bolillito de nata",
         ingredientes: [
-            { nombre: "Harina", cantidad: "500g" },
-            { nombre: "Azúcar", cantidad: "120g" },
-            { nombre: "Levadura", cantidad: "10g" },
-            { nombre: "Mantequilla", cantidad: "100g" },
-            { nombre: "Huevos", cantidad: "3 piezas" },
-            { nombre: "Leche", cantidad: "200ml" },
-            { nombre: "Ralladura de naranja", cantidad: "1 pieza" }
+            { nombre: "Azúcar", cantidad: "200g" },
+            { nombre: "Harina", cantidad: "1000g" },
+            { nombre: "Huevo", cantidad: "250g" },
+            { nombre: "Leche", cantidad: "500ml" },
+            { nombre: "Levadura", cantidad: "25g" },
+            { nombre: "Mantequilla", cantidad: "400g" },
+            { nombre: "Sal", cantidad: "12g" },
+            { nombre: "Relleno de nata", cantidad: "28.5g" }
         ],
-        porciones: 10
+        porciones: 26
     },
     {
-        nombre: "Cuerno",
+        nombre: "Concha de chocolate",
         ingredientes: [
-            { nombre: "Harina", cantidad: "400g" },
-            { nombre: "Azúcar", cantidad: "80g" },
-            { nombre: "Levadura", cantidad: "8g" },
-            { nombre: "Mantequilla", cantidad: "70g" },
-            { nombre: "Huevos", cantidad: "2 piezas" },
-            { nombre: "Leche", cantidad: "180ml" }
+            { nombre: "Azúcar", cantidad: "200g" },
+            { nombre: "Harina", cantidad: "1000g" },
+            { nombre: "Huevo", cantidad: "250g" },
+            { nombre: "Leche", cantidad: "400g" },
+            { nombre: "Levadura", cantidad: "30g" },
+            { nombre: "Mantequilla", cantidad: "560g" },
+            { nombre: "Sal", cantidad: "12g" },
+            { nombre: "Clara", cantidad: "30g" }, 
+            { nombre: "Azúcar glass", cantidad: "200g" },
+            { nombre: "Crema pastelera", cantidad: "400g" },
+            { nombre: "Canela", cantidad: "120g" }
         ],
-        porciones: 8
+        porciones: 23
+    },
+    {
+        nombre: "Rol de canela",
+        ingredientes: [
+            { nombre: "Azúcar", cantidad: "100g" },
+            { nombre: "Harina", cantidad: "1000g" },
+            { nombre: "Huevo", cantidad: "250g" },
+            { nombre: "Leche", cantidad: "400g" },
+            { nombre: "Levadura", cantidad: "25g" },
+            { nombre: "Mantequilla", cantidad: "400g" },
+            { nombre: "Sal", cantidad: "12g" },
+            { nombre: "Fermento", cantidad: "100g" }, 
+            { nombre: "Chocolate", cantidad: "644g" }
+        ],
+        porciones: 20
+    },
+    {
+        nombre: "Chocolatin",
+        ingredientes: [
+            { nombre: "Azúcar", cantidad: "20g" },
+            { nombre: "Harina", cantidad: "1000g" },
+            { nombre: "Chocolate", cantidad: "352g" },
+            { nombre: "Leche", cantidad: "350g" },
+            { nombre: "Levadura", cantidad: "30g" },
+            { nombre: "Mantequilla", cantidad: "640g" },
+            { nombre: "Sal", cantidad: "25g" },
+            { nombre: "Fermento", cantidad: "100g" }, 
+            { nombre: "Agua", cantidad: "350g" }
+        ],
+        porciones: 22
+    },  
+    {
+        nombre: "Concha pinole",
+        ingredientes: [
+            { nombre: "Azúcar", cantidad: "100g" },
+            { nombre: "Harina", cantidad: "1000g" },
+            { nombre: "Huevo", cantidad: "250g" },
+            { nombre: "Leche", cantidad: "400g" },
+            { nombre: "Levadura", cantidad: "25g" },
+            { nombre: "Mantequilla", cantidad: "400g" },
+            { nombre: "Sal", cantidad: "12g" },
+            { nombre: "Fermento", cantidad: "100g" }, 
+            { nombre: "Nueces", cantidad: "644g" }
+        ],
+        porciones: 23
+    },
+    {
+        nombre: "Tarta de queso",
+        ingredientes: [
+            { nombre: "Azúcar", cantidad: "100g" },
+            { nombre: "Harina", cantidad: "1000g" },
+            { nombre: "Huevo", cantidad: "250g" },
+            { nombre: "Leche", cantidad: "400g" },
+            { nombre: "Levadura", cantidad: "25g" },
+            { nombre: "Mantequilla", cantidad: "400g" },
+            { nombre: "Sal", cantidad: "12g" },
+            { nombre: "Fermento", cantidad: "100g" }, 
+            { nombre: "Semillas", cantidad: "644g" }
+        ],
+        porciones: 23
+    },
+    {
+        nombre: "Garra de oso",
+        ingredientes: [
+            { nombre: "Azúcar", cantidad: "100g" },
+            { nombre: "Harina", cantidad: "1000g" },
+            { nombre: "Huevo", cantidad: "250g" },
+            { nombre: "Leche", cantidad: "400g" },
+            { nombre: "Levadura", cantidad: "25g" },
+            { nombre: "Mantequilla", cantidad: "400g" },
+            { nombre: "Sal", cantidad: "12g" },
+            { nombre: "Fermento", cantidad: "100g" }, 
+            { nombre: "Vainilla", cantidad: "644g" }
+        ],
     }
 ];
 
@@ -133,6 +275,9 @@ function generarTablaPanDulce(recetas) {
     tabla += '</tbody></table>';
     return tabla;
 }
+
+// Ordena las recetas alfabéticamente por nombre
+recetasPanDulce.sort((a, b) => a.nombre.localeCompare(b.nombre, 'es', { sensitivity: 'base' }));
 
 // Exporta la función para usarla en PanDulce.js
 module.exports.generarTablaPanDulce = generarTablaPanDulce;
