@@ -117,10 +117,68 @@ ul {
     margin-right: 10%;
 }
 
+
+
+
+#tituloPanSalado{
+    
+    color: #140808;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#tituloRellenos{
+    
+    color: #140808;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#tituloDePasteles{
+    
+    color: #140808;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#tituloDeGalletas{
+    
+    color: #140808;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#tituloDePreparados{
+    
+    color: #140808;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;  
+
+}
+
 #tablaIngredientes{
     
     border-collapse: separate;
     width: 80%;
+    margin-bottom: 30px;
     margin-top: 20px;
     margin-left: 10%;
     margin-right: 10%;
@@ -133,12 +191,37 @@ ul {
     
     border-collapse: separate;
     width: 80%;
+    margin-bottom: 30px;
     margin-top: 20px;
     margin-left: 10%;
     margin-right: 10%;
     border-spacing: 5px 5px;
 
 }
+
+#tablaPanSalado{
+    
+    border-collapse: separate;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-spacing: 5px 5px;
+    margin-bottom: 30px;
+
+}
+#tablaRellenos{
+    
+    border-collapse: separate;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-spacing: 5px 5px;
+    margin-bottom: 30px;
+
+}
+
 
 button {
     cursor: pointer;
@@ -150,6 +233,6 @@ button {
 footer {
     background-color: #31393c;
     color: #ffffff;
-    padding: 40px;
+    padding: 60px;
     text-align: center;
 }
