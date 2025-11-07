@@ -2,27 +2,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Masas</title>
+    <title>Ingredientes</title>
     <link rel="stylesheet" href="Style.css">
 </head>
-
-<header> <div class="header">
+<header> 
+    <div class="header">
         
     <h1></h1>
     <nav>
         <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="Ingredientes.html">Ingredientes</a></li>
-            <li><a href="PanSando.html">Pan salado</a></li>
-            <li><a href="PanDulce.html">Pan dulce</a></li>
-            <li><a href="Rellenos.html">Rellenos</a></li>
-            <li><a href="Masas.html">Masas</a></li>
+            <li class="inicio">
+                <a href="index.html">Inicio</a>
+            </li>
+            <li class="menu">
+                <a href="#">Cafetería </a>
+                <ul class="menu-cafeteria">
+                    
+                    <li><a href="Galletas.html">Galletas</a></li>
+                    <li><a href="Pasteles.html">Pasteles</a></li>
+                    <li><a href="Preparados.html">Preparados</a></li>
+                  
+                </ul>
+            </li>
+            <li class="menu-panaderia">
+                    <a href="#">Panadería</a>
+                    <ul class="menu-panaderia-content">
+                        <li><a href="Ingredientes.html">Ingredientes</a></li>
+                        <li><a href="Rellenos.html">Rellenos</a></li>
+                        <li><a href="PanSalado.html">Pan salado</a></li>
+                        <li><a href="PanDulce.html">Pan dulce</a></li>
+                        <li><a href="Masas.html">Masas</a></li>
+                        <li><a href="PanDeTemporada.html">Pan de temporada</a></li>
+                    </ul>
+            </li>
         </ul>
     </nav>
+    </div>
 </header>
-</div>
+
 
 <body>
-    
+ <h2 id="tituloDeIngredientes"> Masas</h2>
+<div>
+    <table class="tablaMasa" id="tablaMasas"> 
+        <thead>
+            <tr>
+                <th>Nombre de Masa</th>
+                <!--<th>Detalles</th>-->
+                <th>Precio por kilo</th>
+            </tr>
+        <tbody>
+          
+        </tbody>
+    </table>
+
+
+
+    <script src="masas.js"></script>
+
+</div>
+
+
 </body>
+<footer>
+    <div class="footer">
+        <p>Derechos reservados &copy; 2025</p>
+        <p>Contacto:
+    </div>
+</footer>
+
 </html>
