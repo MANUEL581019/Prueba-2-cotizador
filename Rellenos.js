@@ -1,8 +1,7 @@
 
-
 const ingredientes = [
-
-    { nombre: "Aceite", peso: 866, precio: 37.5 },
+    
+        { nombre: "Aceite", peso: 866, precio: 37.5 },
         { nombre: "Aceite de oliva", peso: 1000, precio: 150 },
         { nombre: "Aceituna negra", peso: 1000, precio: 190 },
         { nombre: "Agua", peso: 1000, precio: 3 },
@@ -16,6 +15,7 @@ const ingredientes = [
         { nombre: "Arandanos", peso: 1000, precio: 111 },
         { nombre: "Avena", peso: 1000, precio: 15 },
         { nombre: "Azahar", peso: 1000, precio: 200 },
+        { nombre: "Azúcar", peso: 1000, precio: 21 },
         { nombre: "Azucar", peso: 1000, precio: 21 },
         { nombre: "Azucar glass", peso: 1000, precio: 38 },
         { nombre: "Azucar mascabado", peso: 1000, precio: 38 },
@@ -61,6 +61,7 @@ const ingredientes = [
         { nombre: "Mantequilla de empaste", peso: 1000, precio: 160 },
         { nombre: "Matcha", peso: 1000, precio: 2400 },
         { nombre: "Mazapan", peso: 1000, precio: 100 },
+        { nombre: "Menta", peso: 1000, precio: 50 },
         { nombre: "Mijo", peso: 1000, precio: 26 },
         { nombre: "Mole" , peso: 1000, precio: 110 },
         { nombre: "Mostaza", peso: 1000, precio: 140 },
@@ -120,73 +121,170 @@ const ingredientes = [
 
 
         //frutas y verduras 
-        { nombre: "Aguacate", peso: 1000, precio: 95 },
-        { nombre: "Blueberry", peso: 1000, precio: 200 },
-        { nombre: "Cebolla", peso: 1000, precio: 30 },
-        { nombre: "Cebolla morada", peso: 1000, precio: 40 },
-        { nombre: "Chile serrano", peso: 1000, precio: 30 },
-        { nombre: "Cilantro", peso: 1000, precio: 50 },
-        { nombre: "Frambuesa", peso: 1000, precio: 200 },
-        { nombre: "Fresa", peso: 1000, precio: 60 },
-        { nombre: "Jengibre", peso: 1000, precio: 80 },
-        { nombre: "Jitomate", peso: 1000, precio: 30 },
-        { nombre: "Lechuga", peso: 1000, precio: 35 },
-        { nombre: "Papa", peso: 1000, precio: 30 },
-        { nombre: "Tomate", peso: 1000, precio: 85 },
-        { nombre: "Tomatillo", peso: 1000, precio: 30 },
-        { nombre: "Zanahoria", peso: 1000, precio: 30 },
-        { nombre: "Zarzamora", peso: 1000, precio: 30 },
-        { nombre: "Betabel", peso: 1000, precio: 40 },
-        { nombre: "Mandarina", peso: 1000, precio: 60 },
-        { nombre: "Guayaba", peso: 1000, precio: 30 },
-        { nombre: "Camote", peso: 1000, precio: 90 },
+{ nombre: "Aguacate", peso: 1000, precio: 95.00 },
+{ nombre: "Betabel", peso: 1000, precio: 40.00 },
+{ nombre: "Blueberry", peso: 1000, precio: 200.00 },
+{ nombre: "Calabaza", peso: 1000, precio: 90.00 },
+{ nombre: "Camote", peso: 1000, precio: 90.00 },
+{ nombre: "Cebolla", peso: 1000, precio: 30.00 },
+{ nombre: "Cebolla", peso: 1000, precio: 30.00 },
+{ nombre: "Cebolla morada", peso: 1000, precio: 40.00 },
+{ nombre: "Chile serrano", peso: 1000, precio: 30.00 },
+{ nombre: "Cilantro", peso: 1000, precio: 50.00 },
+{ nombre: "Elote", peso: 1000, precio: 60.00 },
+{ nombre: "Frambuesa", peso: 1000, precio: 200.00 },
+{ nombre: "Fresa", peso: 1000, precio: 60.00 },
+{ nombre: "Guayaba", peso: 1000, precio: 50.00 },
+{ nombre: "Jengibre", peso: 1000, precio: 80.00 },
+{ nombre: "Jitomate", peso: 1000, precio: 30.00 },
+{ nombre: "Lechuga", peso: 1000, precio: 35.00 },
+{ nombre: "Limon", peso: 1000, precio: 40.00 },
+{ nombre: "Mandarina", peso: 1000, precio: 60.00 },
+{ nombre: "Naranja", peso: 1000, precio: 35.00 },
+{ nombre: "Papa", peso: 1000, precio: 30.00 },
+{ nombre: "Piña", peso: 1000, precio: 85.00 },
+{ nombre: "Platano", peso: 1000, precio: 35.00 },
+{ nombre: "Tomate", peso: 1000, precio: 30.00 },
+{ nombre: "Tomatillo", peso: 1000, precio: 30.00 },
+{ nombre: "Zanahoria", peso: 1000, precio: 30.00 },
+{ nombre: "Zarzamora", peso: 1000, precio: 200.00 },
+{ nombre: "Manzana", peso: 1000, precio: 35.00 },
+
+       
+   
+
+  
+];
 
 
 
-    ];
+const recetasRellenos = [
+    {
+        nombreRelleno: "Relleno Tarta Tatin",
+        ingredientesDeRelleno: [
+            { nombre: "Azúcar", cantidad: 50, unidad: "g" },
+            { nombre: "Manzana", cantidad: 1000, unidad: "g" },
+            { nombre: "Menta", cantidad: 10, unidad: "g" },
+            { nombre: "Chai", cantidad: 6, unidad: "g" },
+            { nombre: "Mantequilla", cantidad: 50, unidad: "g" }
+        ],
 
-   const tabla = document.getElementById("tablaIngredientes");
+    },
+    {
+        nombreRelleno: "Crema pastelera",
+        ingredientesDeRelleno: [
+{ nombre: "Azúcar", cantidad: 250, unidad: "g" },
+{ nombre: "Leche", cantidad: 1000, unidad: "g" },
+{ nombre: "Yema", cantidad: 160, unidad: "g" },
+{ nombre: "Mantequilla", cantidad: 30, unidad: "g" },
+{ nombre: "Fecula maiz", cantidad: 80, unidad: "g" }
 
-    ingredientes.forEach(ingrediente => {
-        const fila = document.createElement("tr");
+        ],
+    },
+    {
+nombreRelleno: "Relleno strudel",
+ingredientesDeRelleno: [
+    { nombre: "Manzana", cantidad: 1200, unidad: "g" },
+    { nombre: "Mantequilla", cantidad: 60, unidad: "g" },
+    { nombre: "Azucar", cantidad: 20, unidad: "g" },
+    { nombre: "Nuez pecana", cantidad: 100, unidad: "g" },
+    { nombre: "Nuez castilla", cantidad: 100, unidad: "g" },
+    { nombre: "Pan molido", cantidad: 100, unidad: "g" }
+],
+    },
+    {
+nombreRelleno: "Relleno quiche",
+ingredientesDeRelleno: [
+    { nombre: "Huevo", cantidad: 1000, unidad: "g" },
+    { nombre: "Leche", cantidad: 180, unidad: "g" },
+    { nombre: "Sal", cantidad: 20, unidad: "g" },
+    { nombre: "Gouda", cantidad: 100, unidad: "g" },
+    { nombre: "Jamon", cantidad: 200, unidad: "g" }
+],
+    },
+    {
+nombreRelleno: "Relleno rehilete",
+ingredientesDeRelleno: [
+    { nombre: "Crema pastelera", cantidad: 380, unidad: "g" },
+    { nombre: "Higo", cantidad: 285, unidad: "g" },
+    { nombre: "Almendra fileteada", cantidad: 114, unidad: "g" },
+    { nombre: "Azucar glass", cantidad: 60, unidad: "g" }
+],
+    },
+    {
+        nombreRelleno: "Crema de chocolate con leche",
+        ingredientesDeRelleno: [
+            { nombre: "Mora", cantidad: 1000, unidad: "g" },
+            { nombre: "Azúcar", cantidad: 1000, unidad: "g" }
+        ],
+    },
+];
 
-        fila.innerHTML = `
-            <td>${ingrediente.nombre}</td>
- 
-            <td>$${ingrediente.precio}</td>
-        `;
 
-        tabla.appendChild(fila);
+function calcularPrecioRelleno(nombreRelleno) {
+    const receta = recetasRellenos.find(r => r.nombreRelleno === nombreRelleno);
+    if (!receta) return null;
+
+    let precioTotal = 0;
+    receta.ingredientesDeRelleno.forEach(ingredienteReceta => {
+        // Buscar el ingrediente en la lista principal
+        const ingrediente = ingredientes.find(i => i.nombre.toLowerCase() === ingredienteReceta.nombre.toLowerCase());
+        if (ingrediente && ingrediente.peso && ingrediente.precio) {
+            // Calcular el precio proporcional
+            precioTotal += (ingredienteReceta.cantidad / ingrediente.peso) * ingrediente.precio;
+        }
     });
-    
+    return precioTotal;
+}
 
-    // Ordenar ingredientes alfabéticamente por nombre
-    ingredientes.sort((a, b) => a.nombre.localeCompare(b.nombre));
-    tabla.innerHTML = ""; // Limpiar la tabla antes de volver a llenarla
+// Crear la tabla en el DOM
+function mostrarTablaRellenos() {
+    const tabla = document.getElementById('tablaRellenos');
+    if (!tabla) return;
 
-    ingredientes.forEach(ingrediente => {
-        const fila = document.createElement("tr");
-        fila.innerHTML = `
-            <td>${ingrediente.nombre}</td>
-          
-            <td>$${ingrediente.precio}</td>
-        `;
-        tabla.appendChild(fila);
-    });
-    // Restaurar los encabezados de la tabla
-    const encabezados = document.createElement("tr");
-    encabezados.innerHTML = `
-        <th>Ingredientes</th>
-        
-        <th>Precio</th>
+    // Limpiar tabla
+    tabla.innerHTML = '';
+
+    // Crear encabezado
+    const thead = document.createElement('thead');
+    thead.innerHTML = `
+        <tr>
+            <th>Nombre del Relleno</th>
+            <th>Precio por kilo</th>
+        </tr>
     `;
+    tabla.appendChild(thead);
 
-    // Limpiar la tabla antes de volver a llenarla
-    tabla.appendChild(encabezados);
-    tabla.insertBefore(encabezados, tabla.firstChild);
-    
+    // Crear cuerpo de la tabla
+    const tbody = document.createElement('tbody');
+    recetasRellenos.forEach(receta => {
+        let precioTotal = 0;
+        let pesoTotal = 0;
+
+        receta.ingredientesDeRelleno.forEach(ingredienteReceta => {
+            const ingrediente = ingredientes.find(i => i.nombre.toLowerCase() === ingredienteReceta.nombre.toLowerCase());
+            if (ingrediente && ingrediente.peso && ingrediente.precio) {
+                precioTotal += (ingredienteReceta.cantidad / ingrediente.peso) * ingrediente.precio;
+                pesoTotal += ingredienteReceta.cantidad;
+            }
+        });
+
+        
+        const precioPorKilo = pesoTotal > 0 ? (precioTotal / pesoTotal) * 1000 : null;
+
+        const fila = document.createElement('tr');
+        fila.innerHTML = `
+            <td>${receta.nombreRelleno}</td>
+            <td>${precioPorKilo !== null ? precioPorKilo.toFixed(2) : 'N/A'}</td>
+        `;
+        tbody.appendChild(fila);
+    });
+    tabla.appendChild(tbody);
+}
+
+// Ejecutar al cargar la página
+document.addEventListener('DOMContentLoaded', mostrarTablaRellenos);
 
 
-
-    
+ 
 
